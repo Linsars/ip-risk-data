@@ -31,6 +31,10 @@ async function json(url, ttl = 300) {
   const r = await fetch(url, { cf: { cacheTtl: ttl, cacheEverything: true } });
   return r.ok ? await r.json() : null;
 }
+async function jsonFresh(url) {
+  const r = await fetch(url, { cache: 'no-store', cf: { cacheTtl: 0, cacheEverything: false } });
+  return r.ok ? await r.json() : null;
+}
 function sevText(sev) {
   if (sev >= 4) return '极高';
   if (sev >= 3) return '高';
@@ -45,7 +49,7 @@ async function check(ip) {
     text(`${DATA_BASE}/spamhaus-edrop.txt?v=${DATA_REV}`, 3600),
     json(`${DATA_BASE}/cloud-asn.json?v=${DATA_REV}`, 3600),
     json(`${DATA_BASE}/tg-risk-rules.json?v=${DATA_REV}`, 3600),
-    json(`https://proxycheck.io/v2/${encodeURIComponent(ip)}?vpn=1&asn=1&risk=1`, 300),
+    jsonFresh(`https://proxycheck.io/v2/${encodeURIComponent(ip)}?vpn=1&asn=1&risk=1&_=${Date.now()}`),
     json(`https://api.ipapi.is/?q=${encodeURIComponent(ip)}`, 300),
     json(`https://internetdb.shodan.io/${encodeURIComponent(ip)}`, 300)
   ]);
