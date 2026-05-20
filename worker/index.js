@@ -1,5 +1,5 @@
 const DATA_BASE = 'https://raw.githubusercontent.com/Linsars/ip-risk-data/main/dist';
-const DATA_REV = '5420785';
+const DATA_REV = '6667e13';
 const JSON_HEADERS = { 'content-type': 'application/json; charset=utf-8', 'access-control-allow-origin': '*' };
 
 function ip4ToInt(ip) {
