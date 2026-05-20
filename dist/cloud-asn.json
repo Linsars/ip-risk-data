@@ -1,0 +1,72 @@
+{
+  "AS132203": {
+    "name": "Tencent Cloud",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS13335": {
+    "name": "Cloudflare",
+    "tgWeight": 14,
+    "type": "cloud"
+  },
+  "AS14061": {
+    "name": "DigitalOcean",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
+  "AS14618": {
+    "name": "AWS",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS15169": {
+    "name": "Google",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS16276": {
+    "name": "OVH",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS16509": {
+    "name": "AWS",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS20473": {
+    "name": "Vultr",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS24940": {
+    "name": "Hetzner",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS31898": {
+    "name": "Oracle Cloud",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS396982": {
+    "name": "Google Cloud",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS45102": {
+    "name": "Alibaba Cloud",
+    "tgWeight": 18,
+    "type": "cloud"
+  },
+  "AS63949": {
+    "name": "Akamai/Linode",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS8075": {
+    "name": "Azure",
+    "tgWeight": 18,
+    "type": "cloud"
+  }
+}
