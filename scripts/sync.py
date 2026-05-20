@@ -57,7 +57,22 @@ cloud_asn = {
   'AS24940': {'name':'Hetzner', 'type':'hosting', 'tgWeight':18},
   'AS16276': {'name':'OVH', 'type':'hosting', 'tgWeight':18},
   'AS45102': {'name':'Alibaba Cloud', 'type':'cloud', 'tgWeight':18},
-  'AS132203': {'name':'Tencent Cloud', 'type':'cloud', 'tgWeight':18}
+  'AS132203': {'name':'Tencent Cloud', 'type':'cloud', 'tgWeight':18},
+  'AS9009': {'name':'M247', 'type':'hosting', 'tgWeight':22},
+  'AS38136': {'name':'Akari', 'type':'hosting', 'tgWeight':22},
+  'AS40676': {'name':'Psychz', 'type':'hosting', 'tgWeight':20},
+  'AS55286': {'name':'B2 Net', 'type':'hosting', 'tgWeight':20},
+  'AS35916': {'name':'Multacom', 'type':'hosting', 'tgWeight':20},
+  'AS174': {'name':'Cogent', 'type':'backbone', 'tgWeight':10},
+  'AS1299': {'name':'Arelion', 'type':'backbone', 'tgWeight':10},
+  'AS3257': {'name':'GTT', 'type':'backbone', 'tgWeight':10},
+  'AS60068': {'name':'Datacamp', 'type':'hosting', 'tgWeight':20},
+  'AS212238': {'name':'Datacamp/CDN77', 'type':'hosting', 'tgWeight':20},
+  'AS199524': {'name':'G-Core', 'type':'hosting', 'tgWeight':18},
+  'AS20278': {'name':'Nexeon', 'type':'hosting', 'tgWeight':20},
+  'AS53667': {'name':'PonyNet/BuyVM', 'type':'hosting', 'tgWeight':18},
+  'AS25820': {'name':'IT7/QuadraNet', 'type':'hosting', 'tgWeight':20},
+  'AS8100': {'name':'QuadraNet', 'type':'hosting', 'tgWeight':20}
 }
 
 rules = {

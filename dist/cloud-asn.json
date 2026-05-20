@@ -1,4 +1,9 @@
 {
+  "AS1299": {
+    "name": "Arelion",
+    "tgWeight": 10,
+    "type": "backbone"
+  },
   "AS132203": {
     "name": "Tencent Cloud",
     "tgWeight": 18,
@@ -34,9 +39,29 @@
     "tgWeight": 18,
     "type": "cloud"
   },
+  "AS174": {
+    "name": "Cogent",
+    "tgWeight": 10,
+    "type": "backbone"
+  },
+  "AS199524": {
+    "name": "G-Core",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS20278": {
+    "name": "Nexeon",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
   "AS20473": {
     "name": "Vultr",
     "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS212238": {
+    "name": "Datacamp/CDN77",
+    "tgWeight": 20,
     "type": "hosting"
   },
   "AS24940": {
@@ -44,20 +69,60 @@
     "tgWeight": 18,
     "type": "hosting"
   },
+  "AS25820": {
+    "name": "IT7/QuadraNet",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
   "AS31898": {
     "name": "Oracle Cloud",
     "tgWeight": 18,
     "type": "cloud"
+  },
+  "AS3257": {
+    "name": "GTT",
+    "tgWeight": 10,
+    "type": "backbone"
+  },
+  "AS35916": {
+    "name": "Multacom",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
+  "AS38136": {
+    "name": "Akari",
+    "tgWeight": 22,
+    "type": "hosting"
   },
   "AS396982": {
     "name": "Google Cloud",
     "tgWeight": 18,
     "type": "cloud"
   },
+  "AS40676": {
+    "name": "Psychz",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
   "AS45102": {
     "name": "Alibaba Cloud",
     "tgWeight": 18,
     "type": "cloud"
+  },
+  "AS53667": {
+    "name": "PonyNet/BuyVM",
+    "tgWeight": 18,
+    "type": "hosting"
+  },
+  "AS55286": {
+    "name": "B2 Net",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
+  "AS60068": {
+    "name": "Datacamp",
+    "tgWeight": 20,
+    "type": "hosting"
   },
   "AS63949": {
     "name": "Akamai/Linode",
@@ -68,5 +133,15 @@
     "name": "Azure",
     "tgWeight": 18,
     "type": "cloud"
+  },
+  "AS8100": {
+    "name": "QuadraNet",
+    "tgWeight": 20,
+    "type": "hosting"
+  },
+  "AS9009": {
+    "name": "M247",
+    "tgWeight": 22,
+    "type": "hosting"
   }
 }
