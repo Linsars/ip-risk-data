@@ -1,14 +1,14 @@
 {
   "sources": {
     "spamhaus-drop": {
-      "count": 1660
+      "count": 1702
     },
     "spamhaus-edrop": {
       "count": 0
     },
     "tor-exit-v4": {
-      "count": 1259
+      "count": 1260
     }
   },
-  "updated_at": "2026-06-11T07:05:36Z"
+  "updated_at": "2026-06-11T11:48:51Z"
 }
