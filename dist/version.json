@@ -1,7 +1,7 @@
 {
   "sources": {
     "spamhaus-drop": {
-      "count": 1681
+      "count": 1680
     },
     "spamhaus-edrop": {
       "count": 0
@@ -10,5 +10,5 @@
       "count": 1212
     }
   },
-  "updated_at": "2026-10-15T09:56:34Z"
+  "updated_at": "2026-10-15T15:02:21Z"
 }
