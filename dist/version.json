@@ -7,8 +7,8 @@
       "count": 0
     },
     "tor-exit-v4": {
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "count": 1280
     }
   },
-  "updated_at": "2026-11-17T22:53:34Z"
+  "updated_at": "2026-11-18T04:23:00Z"
 }
